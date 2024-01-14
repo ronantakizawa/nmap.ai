@@ -7,10 +7,12 @@ I used this training model generator to get training data: https://github.com/ms
 Using the OpenAI API, this version of nmap translates its techincally dense outputs into simplified bulletpoints and also gives security feedback. 
 
 Before:
+
 <img width="602" alt="Screenshot 2024-01-14 at 11 54 58" src="https://github.com/ronantakizawa/nmap.ai/assets/71115970/4783a914-c10b-4680-b622-a7e55460c13f">
 
 
 After:
+
 <img width="814" alt="Screenshot 2024-01-14 at 11 54 49" src="https://github.com/ronantakizawa/nmap.ai/assets/71115970/e0f09ee7-f435-479f-9ad0-034218d52300">
 
 
