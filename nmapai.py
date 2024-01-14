@@ -49,8 +49,10 @@ else:
 
     # Print the analysis directly
     if analysis:
+        print()
         print("NMAP Output:")
         print(scan_output)
         print()
         print("AI Summary:")
         print(analysis)
+        print()
