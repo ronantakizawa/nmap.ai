@@ -19,10 +19,10 @@ def run_nmap_command(command):
 
 def analyze_scan(scan_output,nmap_command):
     try:
-        print("Sending scan output to GPT-4 for analysis...")
+        print("Sending scan output to AI for analysis...")
         response = client.chat.completions.create(
-            model="gpt-4",
-            messages=[{"role": "user", "content": f"This is my output from my NMAP scan {nmap_command}. Give detailed analysos to me in bullet points, and say any security feedback if necessary: {scan_output}"}],
+            model="ft:gpt-3.5-turbo-0613:personal::8ghshQEx",
+            messages=[{"role": "user", "content": f"This is my output from my NMAP scan {nmap_command}. Give detailed analysis to me in bullet points, and say any security feedback if necessary: {scan_output}"}],
             temperature=0.2,
             max_tokens=256,
             frequency_penalty=0.0
@@ -52,5 +52,5 @@ else:
         print("NMAP Output:")
         print(scan_output)
         print()
-        print("GPT-4 Analysis:")
+        print("AI Summary:")
         print(analysis)
