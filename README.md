@@ -20,10 +20,9 @@ After:
 Prerequisites: NMAP, Python3
 
 Linux:
-
--       sudo apt-get update
 -       sudo apt-get install python3
 -       sudo apt-get install python3-pip
+-       sudo apt-get install nmap
 
 MacOS:
 -       /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
